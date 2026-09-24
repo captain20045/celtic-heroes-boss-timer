@@ -8,9 +8,8 @@ import discord
 from discord import app_commands
 from discord.ext import commands, tasks
 
-DATA_FILE = Path("boss_data.json")
-with open("bot token.txt", "r", encoding="utf-8") as f:
-    TOKEN = f.read().strip()
+DATA_FILE = Path(os.getenv("DATA_DIR", ".")) / "boss_data.json"
+TOKEN = os.getenv("DISCORD_TOKEN")
 
 # Default values are EXAMPLES only.
 # Use /setboss to set the correct min/max respawn window for your server/event.
