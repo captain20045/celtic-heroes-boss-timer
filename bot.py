@@ -17,7 +17,7 @@ DEFAULT_DATA = {
     "bosses": {
         # End Game Bosses
         "CROM": {"min_hours": 96.0, "max_hours": 120.0},
-        "DINO": {"min_hours": 34.0, "max_hours": 40.0},
+        "DINO": {"min_hours": 34.0, "max_hours": 62.0},
         "BT": {"min_hours": 34.0, "max_hours": 62.0},
         "GELE": {"min_hours": 32.0, "max_hours": 60.0},
         "PROT": {"min_hours": 18.0, "max_hours": 18.25},
